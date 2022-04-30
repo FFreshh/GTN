@@ -1,6 +1,9 @@
 import random
 
 def try_me():
+    return GTN()
+
+def GTN():
     secretNumber = random.randint(1, 20)
     print('I am thinking of a number between 1 and 20.')
 
