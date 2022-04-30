@@ -17,6 +17,6 @@ def GTN():
         else:
             break
     if guess == secretNumber:
-        print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!')
+        return print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!')
     else:
-        print('Nope. The number I was thinking of was ' + str(secretNumber))
+        return print('Nope. The number I was thinking of was ' + str(secretNumber))
